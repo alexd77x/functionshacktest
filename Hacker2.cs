@@ -27,7 +27,7 @@ namespace BFYOC.Function
 
             string responseMessage = string.IsNullOrEmpty(name)
                 ? "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
-                : $"The product name for your product id {name} is Starfruit Explosion.";
+                : $"The product name for your product id {name} is Starfruit Explosion and it tastes fabulous!!!";
 
             return new OkObjectResult(responseMessage);
         }
